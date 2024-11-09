@@ -25,6 +25,7 @@ http://localhost/
 Laravel8,PHP,HTML,CSS,Docker,MySQL
 
 #テーブル設計
+![スクリーンショット 2024-11-09 21 21 16](https://github.com/user-attachments/assets/d80e7640-e435-4543-af79-2742cd721d22)
 
 
 
