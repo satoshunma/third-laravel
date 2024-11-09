@@ -1,0 +1,76 @@
+main {
+  background-color: #f3f3f2;
+}
+
+.attendance__alert {
+  padding: 10px 30px;
+  border-color: #badbcc;
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.attendance__alert--danger {
+  padding: 10px 0;
+  border-color: #f5c2c7;
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.attendance__alert--danger ul {
+  margin: 0;
+}
+
+.attendance__content {
+  display: flex;
+  justify-content: center;
+  padding: 90px 40px;
+}
+
+.attendance__panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.attendance__form {
+  width: 100%;
+}
+
+.attendance__button-submit {
+  width: 100%;
+  height: 200px; /* ボタンの高さを指定 */
+  background-color: #fff;
+  color: #333;
+  font-size: 24px;
+  padding: 0; /* パディングを0にして余白を調整 */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.attendance__button-submit:hover {
+  background-color: #e2e2e2;
+}
+
+.footer {
+  background: #fff;
+}
+
+.footer__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+  text-align: center;
+}
+
+.footer__logo {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}

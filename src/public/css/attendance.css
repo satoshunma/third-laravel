@@ -1,0 +1,89 @@
+main {
+    background-color: #f3f3f2;
+  }
+  
+  .attendance__alert {
+      text-align: center;
+      padding: 15px 0px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .attendance__panel {
+      display: flex; /* flexbox */
+      flex-wrap: wrap;
+      padding: 20px 20px;
+      justify-content:space-around;
+      row-gap:40px;
+      column-gap:40px;
+    }
+    
+    .attendance__button {
+      display: flex; /* flexbox */
+      flex-wrap: wrap;
+      padding: 20px 20px;
+      justify-content:space-between;
+      row-gap:40px;
+  
+    }
+    
+    .attendance__button-submit {
+      background-color: #fff;
+      border: #fff;
+      color: #000;
+      padding: 90px 200px;
+      border-radius: 3px;
+      font-size: 20px;
+      /*width: calc(50% - 22px); /* margin padding分を引く */
+      margin: 1px;
+    }
+    
+    .attendance__content {
+      margin: 0 auto;
+      padding: 30px 15px;
+      max-width: 1230px;
+    }
+    
+    .borderline {
+      border-top: 1px solid #8c8b8b;
+      width: 70%;
+    }
+    
+    .information_list {
+      margin: auto;
+    }
+
+    .information_headline {
+      justify-content:space-around;
+    }
+
+    td {
+      padding: 40px 0px;
+    }
+
+    th {
+      width: 200px;
+    }
+    
+    .footer {
+      background: #fff;
+    }
+    .footer {
+      background: #fff;
+    }
+    
+    .footer__inner {
+      margin: 0 auto;
+      padding: 20px 15px;
+      max-width: 1230px;
+      text-align: center;
+    }
+    
+    .footer__logo {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    
